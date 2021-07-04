@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Text Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Lobster&display=swap');
+
+/* Navbar */
+
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+  height: 80px;
+  background-image: linear-gradient( black, #282c34);
+  color: whitesmoke;
+}
+
+.navLogo {
+  /* border: 2px solid blue; */
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  font-size: 170%;
+}
+
+.navLogo h2 {
+  padding: 0 0 0 7%;
+}
+
+.navLinks {
+  /* border: 2px solid purple; */
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navLinks a {
+  /* border: 2px solid brown; */
+  display: flex;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: .3s;
+  height: 80px;
+  align-items: center;
+  padding: 0 4% 0 4%;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+.hamburgerIconContainer {
+  /* border: 2px solid green; */
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (min-width: 801px) {
+  .hamburgerIconContainer {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .navLogo {
+    width: 45%;
+  }
+  .navLinks {
+    display: none;
+  }
+  .hamburgerIconContainer {
+    display: flex;
+    width: 55%;
+    padding: 0 1.5% 0 0;
+  }
+}
+
+/* .navbar {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-image: linear-gradient( black, #282c34);
+  justify-content: space-around;
+  color: whitesmoke;
+  align-items: center;
+}
+
+.navLogo {
+  justify-content: left;
+}
+
+.navLinks {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  color: whitesmoke;
+}
+
+a {
+  display: flex;
+  color: whitesmoke;
+  text-decoration: none;
+  height: 10vh;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+.hamburgerIcon {
+  margin: 0 0 0 85%
+}
+
+@media (min-width: 801px) {
+  .hamburgerIcon {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .navLinks {
+    display: none;
+  }
+} */
+
+/* Homepage */
+
+.homePage {
+  display: flex;
+  height: 90vh;
+  background-image: url('./images/IMG_1612.jpg');
+  background-size: cover;
+}
