@@ -135,7 +135,7 @@ table {
 
 .homePage {
   display: flex;
-  height: 100vh;
+  height: 95vh;
   background-image: url('./images/IMG_1612.jpg');
   background-size: cover;
   justify-content: center;
@@ -151,19 +151,65 @@ table {
 }
 
 .titleContainer {
-  background-color: rgba(26, 25, 24, .05);
+  background-color: rgba(26, 25, 24, .09);
 }
 
 /* Homepage Media Tags */
 
 @media (max-width: 414px) {
   .homePage {
-    height: 40vh;
+    height: 75vh;
   }
+
   .homePage h1 {
     /* border: 2px solid red; */
-    margin-top: 105px;
+    margin-top: 160px;
     font-size: 18vw;
     align-items: center;
+  }
+}
+
+/* About Page CSS */
+
+.about {
+  height: 90vh;
+  text-align: center;
+  
+}
+
+.about h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 10vw;
+  border: 2px solid purple;
+  margin-top: 20px;
+  
+}
+
+.aboutContents {
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutContents div {
+  display: flex;
+  border: 2px solid blue;
+  width: 44%;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .aboutContents {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .aboutContents div {
+    width: 100%;
   }
 }
