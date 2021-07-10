@@ -27,7 +27,6 @@ function App() {
           <Home/>
         </Route>
       </Switch>
-
       <About/>
     </div>
   );
