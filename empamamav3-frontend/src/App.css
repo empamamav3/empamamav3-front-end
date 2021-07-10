@@ -110,6 +110,8 @@ table {
   align-items: center;
 }
 
+/* Navbar Media Tags */
+
 @media (min-width: 801px) {
   .hamburgerIconContainer {
     display: none;
@@ -136,4 +138,25 @@ table {
   height: 100vh;
   background-image: url('./images/IMG_1612.jpg');
   background-size: cover;
+  justify-content: center;
+}
+
+.homePage h1 {
+  display: flex;
+  /* border: 2px solid red; */
+  margin-top: 150px;
+  font-family: 'Lobster', cursive;
+  font-size: 15vw;
+  text-align: center;
+}
+
+/* Homepage Media Tags */
+
+@media (max-width: 414px) {
+  .homePage h1 {
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    font-size: 18vw;
+    align-items: center;
+  }
 }
