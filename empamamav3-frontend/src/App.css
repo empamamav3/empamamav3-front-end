@@ -150,6 +150,10 @@ table {
   text-align: center;
 }
 
+.titleContainer {
+  background-color: rgba(26, 25, 24, .05);
+}
+
 /* Homepage Media Tags */
 
 @media (max-width: 414px) {
