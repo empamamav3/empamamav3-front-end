@@ -55,8 +55,10 @@ table {
 
 .navbar {
   /* border: 2px solid red; */
+  position: fixed;
   display: flex;
   height: 80px;
+  width: 100%;
   background-image: linear-gradient( black, #282c34);
   color: whitesmoke;
 }
@@ -96,7 +98,7 @@ table {
   font-size: 1.2rem;
 }
 
-a:hover {
+.navbar a:hover {
   background-color: orange;
 }
 
@@ -127,62 +129,11 @@ a:hover {
   }
 }
 
-/* .navbar {
-  display: flex;
-  height: 10vh;
-  width: 100%;
-  background-image: linear-gradient( black, #282c34);
-  justify-content: space-around;
-  color: whitesmoke;
-  align-items: center;
-}
-
-.navLogo {
-  justify-content: left;
-}
-
-.navLinks {
-  display: flex;
-  height: 10vh;
-  width: 100%;
-  color: whitesmoke;
-}
-
-a {
-  display: flex;
-  color: whitesmoke;
-  text-decoration: none;
-  height: 10vh;
-  width: 25%;
-  align-items: center;
-  justify-content: center;
-  transition: .3s;
-}
-
-a:hover {
-  background-color: orange;
-}
-
-.hamburgerIcon {
-  margin: 0 0 0 85%
-}
-
-@media (min-width: 801px) {
-  .hamburgerIcon {
-    display: none;
-  }
-}
-@media (max-width: 800px) {
-  .navLinks {
-    display: none;
-  }
-} */
-
 /* Homepage */
 
 .homePage {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   background-image: url('./images/IMG_1612.jpg');
   background-size: cover;
 }
