@@ -177,7 +177,6 @@ table {
 .multi-button button {
   flex-grow: 1;
   cursor: pointer;
-  position: relative;
   padding:
     calc(var(--space) / 1.125)
     var(--space)
