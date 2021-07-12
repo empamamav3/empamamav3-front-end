@@ -144,7 +144,7 @@ table {
 .homePage h1 {
   display: flex;
   /* border: 2px solid red; */
-  margin-top: 100px;
+  margin-top: 130px;
   font-family: 'Lobster', cursive;
   font-size: 13vw;
   text-align: center;
@@ -226,7 +226,7 @@ table {
 .multi-container {
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 65px;
 }
 
 /* Homepage Media Tags */
@@ -238,9 +238,23 @@ table {
 
   .homePage h1 {
     /* border: 2px solid red; */
-    margin-top: 190px;
+    margin-top: 170px;
     font-size: 18vw;
     align-items: center;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 1025px) {
+  .homePage {
+    height: 95vh;
+  }
+
+  .homePage h1 {
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    font-size: 18vw;
+    align-items: center;
+    height: 55vh;
   }
 }
 
