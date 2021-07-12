@@ -144,7 +144,7 @@ table {
 .homePage h1 {
   display: flex;
   /* border: 2px solid red; */
-  margin-top: 130px;
+  margin-top: 100px;
   font-family: 'Lobster', cursive;
   font-size: 13vw;
   text-align: center;
@@ -242,6 +242,10 @@ table {
     font-size: 18vw;
     align-items: center;
   }
+
+  .multi-button {
+    width: 55%;
+  }
 }
 
 @media (min-width: 420px) and (max-width: 1025px) {
@@ -255,6 +259,10 @@ table {
     font-size: 18vw;
     align-items: center;
     height: 55vh;
+  }
+
+  .multi-button {
+    width: 40%;
   }
 }
 
