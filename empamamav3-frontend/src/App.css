@@ -270,7 +270,6 @@ table {
 .about {
   height: 90vh;
   text-align: center;
-  
 }
 
 .about h2 {
@@ -296,6 +295,10 @@ table {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.aboutContents img {
+  max-width: 100%;
 }
 
 @media (max-width: 1024px) {

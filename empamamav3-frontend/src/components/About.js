@@ -1,4 +1,4 @@
-
+import food from '../images/IMG_1578_3.jpg'
 
 export default function About () {
     return (
@@ -10,7 +10,7 @@ export default function About () {
                     <p>Empamama's started as a vision from a proud Filipina to spread the warmth and comfort of traditional Filipino cooking to her neighbors - and we want to share that enduring vision with you!</p>
                 </div>
                 <div>
-                    <img src='/Users/williamdye/WillGit/empamamav3-front-end/empamamav3-frontend/src/images/IMG_1578_3.jpg' alt='Food'/>
+                    <img src={food} alt='Food'/>
                 </div>
                 <div className='aboutText2Container'>
                     <p>Feel free to contact us to schedule a Filipino-style dinner or make an order for our homemade frozen Filipino delicacies.</p>
