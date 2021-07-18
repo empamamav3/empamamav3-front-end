@@ -249,7 +249,7 @@ table {
 
 @media (min-width: 420px) and (max-width: 1025px) {
   .homePage {
-    height: 95vh;
+    height: 100vh;
   }
 
   .homePage h1 {
@@ -270,6 +270,8 @@ table {
 .about {
   height: 90vh;
   text-align: center;
+  background-color: whitesmoke;
+  border: solid 2px whitesmoke;
 }
 
 .about h2 {
@@ -302,6 +304,10 @@ table {
 }
 
 @media (max-width: 1024px) {
+  .about h2 {
+    margin-top: 30px;
+  }
+
   .aboutContents {
     display: flex;
     flex-direction: column;
